@@ -24,8 +24,6 @@ Flutter Webview: https://pub.dev/packages/webview_flutter
 
 ## Cool Screenshots
 
-<center>
 <img src="images/readme/01.png" width="250px"> <img src="images/readme/02.png" width="250px">
 
 <img src="images/readme/03.png" width="250px"> <img src="images/readme/04.png" width="250px">
-</center>
