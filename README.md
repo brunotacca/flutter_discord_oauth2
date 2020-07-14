@@ -1,16 +1,27 @@
-# flutter_discord_oauth2
+# Example of Discord's OAuth2 - User API
 
-A new Flutter project.
+Example project using Flutter and MobX to authenticate an user with Discord's OAuth2 flow.
 
-## Getting Started
+Since the User Token has just few uses according to the docs, it just shows the User Info and the Guilds Info.
 
-This project is a starting point for a Flutter application.
+It can save the credentials via SharedPreferences (no need to login again) along with a cool theme switcher (light/dark) and a custom discord icon.
 
-A few resources to get you started if this is your first Flutter project:
+## Information Sources:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Discord OAuth2 Docs: https://discord.com/developers/docs/topics/oauth2
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Discord Application Page: https://discord.com/developers/applications
+
+Flutter Docs: https://flutter.dev/docs
+
+Dart OAuth2: https://pub.dev/packages/oauth2
+
+Flutter MobX: https://pub.dev/packages/mobx
+
+Flutter Webview: https://pub.dev/packages/webview_flutter
+
+## Cool Screenshots
+
+<img src="images/readme/01.png" width="250px"> <img src="images/readme/02.png" width="250px">
+
+<img src="images/readme/03.png" width="250px"> <img src="images/readme/04.png" width="250px">
