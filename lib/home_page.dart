@@ -80,7 +80,6 @@ class _HomePageState extends State<HomePage> {
       discordOAuth2Store.setLastReceivedResponse(response);
       if (response.statusCode == 200) {
         Iterable l = json.decode(response.body);
-        print("response.body: " + response.body);
         List<DiscordGuild> guilds = [];
         l.forEach((element) => guilds.add(DiscordGuild.fromJson(json.encode(element))));
         discordOAuth2Store.setDiscordUserGuilds(guilds);
